@@ -9,7 +9,6 @@ if (!defined('__TYPECHO_ROOT_DIR__'))
     <div class="flex flex-col">
         <div>Powered By <a href="https://xiaopanglian.com" class="cursor-pointer text-gray-300"
                 target="_blank">Icefox Theme</a> .
-    <a href="https://blog.qixing1217.top/article/deploy-typecho-dynamic-blog-on-vercel-using-icefox-theme-and-ssl-database-connection" class="cursor-pointer text-gray-600" target="_blank">部署教程</a></div>
         <?php
         $beian = $this->options->beian;
         if (!empty($beian)) {
